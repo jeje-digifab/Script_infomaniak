@@ -2,6 +2,7 @@
 
 import dns.resolver
 import re
+import urllib3
 
 url = 'candiharvest.infomanihack.ch'
 
@@ -21,7 +22,22 @@ def txt_record():
         print(f"Error fetching TXT record: {e}")
         return None
 
+def header():
+    """
+    Function to fetch headers from a URL using urllib3.
+    """
+    
+    resp = urllib3.request(
+        "GET",
+        "https://candiharvest.infomanihack.ch",
+        headers={
+            "X-Candidate-Id": "value"
+        }
+    )
+    
+    print(resp.data.decode('utf-8'))
 
 if __name__ == "__main__":
     # main()
-    txt_record()
+#    txt_record()
+    header()
