@@ -1,4 +1,4 @@
-# Script_infomaniak
+# Script Infomaniak
 
 Script réalisé dans le cadre du test technique pour l’admission en alternance **TSSR** chez Infomaniak.
 
@@ -7,7 +7,6 @@ Ce script interroge les enregistrements DNS de l’URL
 afin d’obtenir le header **X-Candidate-Id** nécessaire pour débloquer le Level 1 et accéder au questionnaire de candidature.
 Pour cela, il effectue une requête DNS afin d’extraire un enregistrement TXT contenant l’ID, puis injecte cette valeur dans une requête GET HTTP ciblée, permettant ainsi de valider l’étape demandée dans l’évaluation technique.
 
----
 
 ## Prérequis
 
@@ -15,7 +14,6 @@ Pour cela, il effectue une requête DNS afin d’extraire un enregistrement TXT 
 - **pip** : 23.0.1 ou plus récent
 - Accès Internet pour effectuer les requêtes DNS et HTTP
 
----
 
 ## Installation & exécution
 
