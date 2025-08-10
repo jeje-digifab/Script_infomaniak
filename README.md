@@ -37,3 +37,4 @@ Pour cela, il effectue une requête DNS afin d’extraire un enregistrement TXT 
 
 - [Python DNS look-up (GeeksforGeeks)](https://www.geeksforgeeks.org/python/network-programming-in-python-dns-look-up/)
 - [User Guide urllib3](https://urllib3.readthedocs.io/en/stable/user-guide.html)
+- [Formation Holberton School](https://www.holbertonschool.fr) – École digitale formant aux métiers du développement.
